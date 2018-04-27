@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Eventos - Mouse</title>
+
+	<script type="text/javascript">
+
+// 	EVENTOS
+
+	// onclick
+	// ondblclick
+	// onmousedown
+	// onmouseover
+	// onmouseout
+
+	function msgBoasVindas(){
+		alert ('Seja Bem-Vindo onclick!')
+	}
+
+	function msgOne(){
+		alert ('Seja Bem-Vindo ondblclick!')
+	}
+
+	function msgTwo(){
+		alert ('Seja Bem-Vindo onmousedown!')
+	}
+
+	function msgTree(){
+		alert ('Seja Bem-Vindo onmouseover!')
+	}
+
+	function msgFour(){
+		alert ('Seja Bem-Vindo onmouseout!')
+	}
+
+	</script>
+
+</head>
+<body>
+
+	<div onclick="msgBoasVindas()" style="background: #ccc; height: 150px; width: 150px"> 1 click </div>
+	<br>
+	<div ondblclick="msgOne()" style="background: #ccc; height: 150px; width: 150px"> Duplo Click </div>
+	<br>
+	<div onmousedown="msgTwo()" style="background: #ccc; height: 150px; width: 150px"> Aparece a informação mesmo segurando o botão</div>
+	<br>
+	<div onmouseover="msgTree()" style="background: #ccc; height: 150px; width: 150px"> Aparece a informação ao passar o mouse </div>
+	<br>
+	<div onmouseout="msgFour()" style="background: #ccc; height: 150px; width: 150px"> Aparece a informação ao tirar o mouse de cima </div>
+
+
+</body>
+</html>
