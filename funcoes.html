@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Funções</title>
+
+	<script type="text/javascript">
+
+	// 	FUNÇÃO SEM RETURN;
+
+	function calculaAreaTerreno (largura, comprimento){
+
+		// CONVERTE OS DADOS PARA FLOAT
+		
+		largura = parseFloat(largura);
+		comprimento = parseFloat (comprimento);
+
+		var area = largura * comprimento;
+		document.write(" O terreno possui " + area + " metros quadrados.");
+	}
+
+
+		var largura =  prompt ("Digite a largura do terreno");
+		var comprimento = prompt("Digite o comprimento do terreno");
+
+
+		calculaAreaTerreno(largura, comprimento);
+		
+
+
+	// FUNÇÃO COM RETURN;
+		
+	/*function calculaAreaTerreno (largura, comprimento){
+
+		// CONVERTE OS DADOS PARA FLOAT
+		largura = parseFloat(largura);
+		comprimento = parseFloat (comprimento);
+
+		var area = largura * comprimento;
+		return area;
+	}
+
+
+		var largura =  prompt ("Digite a largura do terreno");
+		var comprimento = prompt("Digite o comprimento do terreno");
+
+
+		var areaTerreno = calculaAreaTerreno(largura, comprimento);
+		document.write(" O terreno possui " + areaTerreno + " metros quadrados.");
+	*/	
+		//  OU
+
+		/*  
+		document.write(" O terreno possui " + calculaAreaTerreno(15,25) + " metros quadrados.");
+		 */
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
